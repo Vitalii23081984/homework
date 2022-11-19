@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Имя</label>
+            <input type="text" name="name" placeholder="Имя"><br>
+        <label for="surname">Фамилия</label>
+            <input type="text" name="surname" placeholder="Фамилия"><br>
+        <label for="email">Адрес электронной почты</label>
+            <input type="email" name="email" placeholder="username@email.com"><br>
+        <label for="password">Пароль</label>
+            <input type="password" name="password_for_registration" placeholder="Введите пароль">
+            <input type="password" name="password_conf" placeholder="Повторите пароль"><br>
+        <label for="gender">Укажите ваш пол</label>
+            <input type="radio" id="choose_one" name="gender" value="girl">
+        <label for="choose_one">Женский</label>
+            <input type="radio" id="choose_two" name="gender" value="boy">
+        <label for="choose_two">Мужской</label><br>
+        <label for="years">Возраст</label>
+            <input type="number" id="years" name="age" value="user's_age"><br>
+        <label for="select_course">Выберите курс</label>
+        <select name="course" id="select_course">
+            <option value="zero"></option>
+            <option value="first">Front-End</option>
+            <option value="two">Back-End</option>
+            <option value="three">Project Management</option>
+            <option value="four">QA Manual</option>
+        </select><br>
+        <label>Адрес проживания</label>
+            <input type="text" name="country" placeholder="Страна">
+            <input type="text" name="region" placeholder="Область">
+            <input type="text" name="town" placeholder="Город">
+            <input type="text" name="address" placeholder="Название улицы">
+            <input type="number" name="town's_number" placeholder="Номер дома"><br>
+        <label for="consent">Согласие на обработку персональных данных</label>
+            <input required type="checkbox" id="consent" name="yes"><br>
+        <button type="reset">Очистить форму</button>
+        <button type="submit">Зарегистрироваться</button>
+    </form> 
+</body>
+</html>
